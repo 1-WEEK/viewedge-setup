@@ -1,0 +1,9 @@
+scopes:
+    - name: claude
+      description: claude configuration in .claude/
+    - name: do
+      description: turn display off via display-off/
+    - name: "on"
+      description: turn display on via display-on/
+    - name: kc
+      description: kanshi configuration in kanshi-config/

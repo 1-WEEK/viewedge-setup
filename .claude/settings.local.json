@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git-agent init *)",
+      "Bash(git-agent commit *)",
+      "Bash(git config *)"
+    ]
+  }
+}
