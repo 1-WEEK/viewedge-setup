@@ -20,3 +20,6 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/linux
 ### end git-agent ###
+
+# Claude Code local settings (may contain tokens)
+.claude/settings.local.json

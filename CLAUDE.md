@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Project Layout
+
+| File | Purpose |
+|------|---------|
+| `setup.sh` | One-shot install / recovery script |
+| `display-off` / `display-on` | Toggle display power via uhubctl |
+| `kanshi-config` | Display resolution config template (1200x1080@89.973Hz) |
+| `README.md` | Quick-start guide |
+| `DECISIONS.md` | Detailed design decisions and troubleshooting notes |
+
 ## What This Is
 
 A configuration and script collection for controlling a YXStar YX Display (1200x1080) connected to a Raspberry Pi 4B running Raspberry Pi OS Bookworm with Wayland (labwc compositor). After a system reinstall, run:
